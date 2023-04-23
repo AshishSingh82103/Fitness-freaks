@@ -1,0 +1,93 @@
+body{
+    font-family: 'Playball', cursive;
+      margin: 0px;
+      padding: 0px;
+      background: url('cardio-workout.jpg');
+   }
+   .left{
+    position: absolute;
+    left: 60px;
+    top: 20px; 
+    display: inline-block;
+    color: aquamarine;
+      /* border: 2px solid green; */
+   }
+   .left img{
+    
+     width: 67px;
+   }
+   .left div{
+    line-height: 22px;
+    font: size 26px; ;
+   text-align: center;
+   }
+   .mid{
+    display: block;
+    width: 36%;
+    margin: 29px auto;
+      /* border: 5px solid rgb(202, 155, 14); */
+   }
+   .navbar{
+      display: inline-block;
+   }
+   .navbar li{
+    display: inline-block;
+    font-size: 15px;
+   }
+   .navbar li a{
+     color: hsl(120, 6%, 6%);
+     text-decoration: none;
+     padding: 5px 5px;
+   }
+   .navbar li a:hover,.navbar li a.active{
+     text-decoration: underline;
+     color: rgb(245, 164, 16) ;
+   }
+    .right{
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+      
+   }
+   .btn{
+    font-family: 'Playball', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 3px solid grey;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+   }
+   .btn:hover{
+    background-color:rgb(31, 30, 30) ;
+   }  
+   .container{
+    
+   margin: 80px 127px;
+   padding: 14px 15px;
+   width: 77%;
+   border-radius: 5px;
+   text-align: center;
+   }
+   .form-group input{
+    font-family: 'Playball', cursive;
+    text-align: center;
+    display:block;
+    width: 508px;
+    padding: 1px;
+    border: 3px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 10 px;
+   }
+   .container h1{
+    text-align: center;
+   }
+   .container button{
+    display: block;
+    width:39%;
+    margin:20px auto;
+   }
